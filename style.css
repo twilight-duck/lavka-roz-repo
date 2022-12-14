@@ -1,18 +1,18 @@
 @font-face {
     font-family: "TT Norms Bold";
-    src: url("../fonts/TTNorms/TTNorms-Bold.woff");
+    src: url("fonts/TTNorms/TTNorms-Bold.woff");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "TT Norms Medium";
-    src: url("../fonts/TTNorms/TTNorms-Medium.woff");
+    src: url("fonts/TTNorms/TTNorms-Medium.woff");
     font-weight: 500;
 }
 
 @font-face {
     font-family: "TT Norms Regular";
-    src: url("../fonts/TTNorms/TTNorms-Regular.woff");
+    src: url("fonts/TTNorms/TTNorms-Regular.woff");
     font-weight: 400;
   }
 
@@ -262,8 +262,14 @@ body {
 }
 
 .order__details{
-  
   width: 277px;
+}
+
+.order__details-cart{
+  border: 1px solid #E2E4EB;
+  border-radius: 10px;
+  padding: 30px 0px 40px 30px;
+  max-width: 873px;
 }
 
 .order__details td{
