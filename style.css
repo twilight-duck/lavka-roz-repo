@@ -263,6 +263,7 @@ body {
 
 .order__details{
   width: 277px;
+  padding: 15px;
 }
 
 .order__details-cart{
@@ -273,7 +274,7 @@ body {
 }
 
 .order__details td{
-  padding: 10px 25px 0px 25px;
+  
 }
 
 .order__details td:first-child{
